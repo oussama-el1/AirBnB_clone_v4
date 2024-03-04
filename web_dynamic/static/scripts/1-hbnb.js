@@ -17,6 +17,6 @@ $(document).ready(function () {
         });
 
         console.log(valuesArray);
-        $('#listamenity').text("selected : " + valuesArray.join(', '));
+        $('#listamenity').text(valuesArray.join(', '));
     });
 });
